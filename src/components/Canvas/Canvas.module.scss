@@ -1,0 +1,11 @@
+.canvas-wrapper {
+    height: 100%;
+    width: 100%;
+
+    @include flex-centered;
+}
+
+.canvas {
+    border: 1px solid $color-black;
+}
+

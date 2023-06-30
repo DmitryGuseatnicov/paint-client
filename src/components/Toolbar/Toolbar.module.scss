@@ -1,0 +1,19 @@
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 40px;
+    border-bottom: 1px solid $color-black;
+}
+
+.button {
+    border: none;
+    padding: 4px;
+    margin: 2px;
+    background: transparent;
+
+    &.active {
+        background: aqua;
+    }
+}

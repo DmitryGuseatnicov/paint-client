@@ -1,0 +1,37 @@
+.chat {
+    border: 1px solid rgba(#333, 0.5);
+    position: relative;
+    min-width: 280px;
+    padding: 20px;
+
+}
+
+.messages {
+    overflow: scroll;
+    height: 500px;
+}
+
+.message {
+    margin-top: 10px;
+    &.author {
+        background-color: aqua;
+    }
+}
+
+.user-name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.form {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    gap: 6px;
+
+    input {
+        padding: 5px;
+    }
+}

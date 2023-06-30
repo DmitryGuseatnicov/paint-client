@@ -1,0 +1,1 @@
+export { CanvasStore } from './CanvasStore';
